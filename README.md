@@ -80,9 +80,9 @@ Taxa de Erro: Analisa falhas no registro ou atualização de pedidos.
 Uso de Memória: Avalia o impacto das listas encadeadas no consumo de recursos.
 Satisfação do Usuário: Será medida por simulações práticas para verificar a usabilidade.
 As métricas serão apresentadas em gráficos e tabelas, permitindo uma análise clara e detalhada do desempenho do sistema.
-
 Integração e Solução do Problema
 O sistema combina algoritmos eficientes, estruturas dinâmicas e persistência de dados para oferecer uma solução prática e robusta. As técnicas aplicadas visam reduzir erros, agilizar processos e melhorar a experiência dos usuários, alinhando-se aos objetivos do projeto.
+
 ---
 
 ## **Seção III. Metodologia**
