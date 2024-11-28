@@ -46,7 +46,43 @@ A eficiência do sistema será avaliada com as seguintes métricas:
 ---
 
 ## **Seção II. Fundamentos teóricos**
-.
+.O sistema de pedidos para restaurantes está sendo desenvolvido com base em técnicas fundamentais de estruturas de dados e manipulação de arquivos, buscando criar uma solução eficiente e prática para os desafios de gestão de pedidos. A seguir, são descritos os principais mecanismos e algoritmos utilizados, bem como as métricas que serão aplicadas para avaliar seu desempenho.
+
+Estruturas de Dados Dinâmicas
+O sistema utiliza listas encadeadas como estrutura central para organizar dados do cardápio e pedidos. A escolha foi feita devido à flexibilidade dessas listas, que permitem inserções e remoções dinâmicas sem a necessidade de redimensionamento, como ocorre em arrays.
+
+Os nós das listas armazenam:
+
+Cardápio: Nome do item, preço e identificador único.
+Pedidos: Número do pedido, itens solicitados, status ("Pendente", "Concluído") e informações do cliente.
+As operações principais incluem a inserção dinâmica de dados, busca eficiente e atualização de informações. Essas técnicas garantem que o sistema possa lidar com mudanças frequentes e volumes crescentes de dados.
+
+Manipulação de Arquivos e Persistência
+Para persistir os dados entre execuções, o sistema utiliza arquivos de texto que simulam um banco de dados básico. As funções principais incluem:
+
+Leitura e escrita: Implementadas com fscanf() e fprintf() para carregar e salvar informações do cardápio e dos pedidos.
+Consistência de dados: O formato dos arquivos é padronizado para facilitar a leitura e a escrita.
+Esses mecanismos garantem que os dados sejam armazenados e recuperados de forma confiável, mesmo após o programa ser encerrado.
+
+Algoritmos de Gestão de Pedidos
+Os algoritmos centrais do sistema incluem:
+
+Cadastro de Pedidos: Insere novos pedidos na lista encadeada, registrando itens e status iniciais.
+Atualização de Status: Localiza pedidos pelo número e ajusta seu status conforme necessário.
+Relatórios Estatísticos: Consolida informações como tempo médio de atendimento e itens mais pedidos.
+Esses algoritmos são projetados para serem simples e eficientes, otimizando o processamento e garantindo estabilidade.
+
+Avaliação e Métricas de Desempenho
+O sistema será avaliado com base em:
+
+Tempo de Resposta: Mede a eficiência em processar operações com diferentes volumes de dados.
+Taxa de Erro: Analisa falhas no registro ou atualização de pedidos.
+Uso de Memória: Avalia o impacto das listas encadeadas no consumo de recursos.
+Satisfação do Usuário: Será medida por simulações práticas para verificar a usabilidade.
+As métricas serão apresentadas em gráficos e tabelas, permitindo uma análise clara e detalhada do desempenho do sistema.
+
+Integração e Solução do Problema
+O sistema combina algoritmos eficientes, estruturas dinâmicas e persistência de dados para oferecer uma solução prática e robusta. As técnicas aplicadas visam reduzir erros, agilizar processos e melhorar a experiência dos usuários, alinhando-se aos objetivos do projeto.
 .
 .
 .
