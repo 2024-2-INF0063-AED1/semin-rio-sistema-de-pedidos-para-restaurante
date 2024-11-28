@@ -83,10 +83,6 @@ As métricas serão apresentadas em gráficos e tabelas, permitindo uma análise
 
 Integração e Solução do Problema
 O sistema combina algoritmos eficientes, estruturas dinâmicas e persistência de dados para oferecer uma solução prática e robusta. As técnicas aplicadas visam reduzir erros, agilizar processos e melhorar a experiência dos usuários, alinhando-se aos objetivos do projeto.
-.
-.
-.
-.
 ---
 
 ## **Seção III. Metodologia**
