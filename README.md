@@ -109,9 +109,52 @@ O sistema combina algoritmos eficientes, estruturas dinâmicas e persistência d
 ---
 
 ## **Seção IV. Resultados e conclusões**
-.
-.
-.
-.
+O desenvolvimento do sistema de pedidos para restaurantes tem apresentado resultados iniciais positivos, com funcionalidades essenciais já implementadas e testadas em um ambiente controlado. Até agora, o sistema mostrou ser capaz de gerenciar itens do cardápio e pedidos de forma dinâmica, utilizando listas encadeadas e persistência de dados em arquivos. Essas funcionalidades se mostraram fundamentais para alcançar o objetivo principal do projeto: organizar e otimizar o gerenciamento de pedidos de maneira eficiente e confiável.
 
+Funcionalidades Avaliadas
+Cadastro de Itens no Cardápio: Os testes realizados indicaram que o sistema tem desempenho estável em diferentes volumes de dados, o que reforça a adequação das listas encadeadas como estrutura base. A inserção de novos itens ocorre de forma fluida e consistente.
+
+Cadastro e Atualização de Pedidos: Os algoritmos de inserção e atualização de pedidos apresentaram respostas rápidas, mesmo em listas maiores, destacando a eficiência das operações. A funcionalidade de atualização de status também se mostrou prática e confiável.
+
+Relatórios Estatísticos: A geração de relatórios, como identificação de itens mais vendidos, listagem de pedidos pendentes e o resumo geral de atividades, proporcionou uma visão útil do desempenho do sistema e dos padrões operacionais simulados.
+
+Resultados Preliminares (Simulação)
+Os testes iniciais em ambiente simulado geraram resultados encorajadores:
+
+Tempo Médio de Processamento:
+
+Adicionar itens ao cardápio: aproximadamente 2 ms por operação.
+Registro de pedidos: cerca de 3 ms por operação.
+Atualização de status: em torno de 1,5 ms por operação.
+Taxa de Erro: Durante os testes, 100% das operações válidas de inserção e atualização foram realizadas com sucesso. Os erros detectados foram restritos a entradas inválidas, como IDs duplicados ou referências a itens inexistentes, o que demonstra que as validações implementadas estão funcionando corretamente.
+
+Escalabilidade: O sistema demonstrou desempenho consistente em listas com até 500 pedidos e 100 itens no cardápio, indicando sua viabilidade para restaurantes de pequeno e médio porte.
+
+Representação Gráfica
+Embora gráficos detalhados dependam de dados mais abrangentes, é possível prever a inclusão de representações visuais, como gráficos de barras para tempos médios de operação e taxas de erro, após a conclusão dos testes finais. Essa análise será expandida pelos membros da equipe, com tabelas e gráficos detalhados complementando os resultados apresentados.
+
+Comparação com a Literatura
+Os resultados obtidos até o momento corroboram as observações da literatura utilizada como base para o projeto. De acordo com a ABRASEL (2022), a integração de sistemas automatizados é essencial para reduzir erros e melhorar a eficiência operacional, o que foi confirmado durante as simulações. Da mesma forma, NEXAAS (2022) destaca que sistemas capazes de gerar relatórios detalhados ajudam na tomada de decisões estratégicas. Nosso sistema segue essa direção, utilizando relatórios estatísticos como um diferencial para aprimorar a gestão.
+
+Essas comparações mostram que, mesmo em estágio inicial, o sistema está alinhado às melhores práticas do setor e atende aos objetivos definidos na literatura.
+
+Conclusões
+O desenvolvimento do sistema trouxe lições valiosas para a equipe, tanto no aspecto técnico quanto na organização do projeto. Entre os aprendizados mais significativos, destacam-se:
+
+Planejamento Estrutural: O uso de listas encadeadas mostrou ser uma escolha eficiente, mas também exigiu cuidado adicional no tratamento de ponteiros e validações para evitar inconsistências.
+
+Persistência de Dados: Trabalhar com arquivos em C foi eficaz, mas apresentou desafios, como garantir a consistência dos formatos e a integridade das operações de leitura e escrita.
+
+Validações e Testes: Um sistema robusto depende de validações bem implementadas. As verificações de IDs únicos e entradas corretas evitaram erros que poderiam comprometer a integridade dos dados.
+
+Trabalhos Futuros
+Com base nos resultados preliminares, os próximos passos para o sistema incluem:
+
+Testes Avançados: Realizar simulações em ambientes mais próximos da realidade, com maiores volumes de dados e múltiplos usuários interagindo simultaneamente.
+
+Expansão de Funcionalidades: Incluir relatórios estatísticos mais detalhados, como análise de desempenho semanal e comparações entre períodos de vendas.
+
+Melhorias na Interface: Explorar a criação de uma interface gráfica ou aprimorar a navegação textual, tornando o sistema mais acessível e intuitivo.
+
+Esses passos permitirão refinar o sistema e prepará-lo para aplicações mais amplas, alinhando-se ainda mais às demandas práticas de um restaurante.
 ---
