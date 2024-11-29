@@ -156,5 +156,5 @@ Expansão de Funcionalidades: Incluir relatórios estatísticos mais detalhados,
 
 Melhorias na Interface: Explorar a criação de uma interface gráfica ou aprimorar a navegação textual, tornando o sistema mais acessível e intuitivo.
 
-Esses passos permitirão refinar o sistema e prepará-lo para aplicações mais amplas, alinhando-se ainda mais às demandas práticas de um restaurante.
+
 ---
