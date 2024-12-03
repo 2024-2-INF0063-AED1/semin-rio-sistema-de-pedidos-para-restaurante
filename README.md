@@ -167,6 +167,6 @@ Melhorias na Interface: Explorar a criação de uma interface gráfica ou aprimo
 
 ## **Apêndices**
 
-### Apêndice A - Diagrama das demonstrando as funções do programa
+### Apêndice A - Diagrama demonstrando as funções do programa
 
 ![Classe UML (2)](https://github.com/user-attachments/assets/2d2facd3-14e1-4b22-b0e8-4ed790cab70d)
