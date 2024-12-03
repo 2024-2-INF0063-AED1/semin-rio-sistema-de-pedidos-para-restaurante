@@ -1,4 +1,4 @@
-#### Sistema de Pedidos para Restaurante
+# Sistema de Pedidos para Restaurante
 
 ### Sobre o Projeto  
 Este projeto visa o desenvolvimento de um sistema para gestão de pedidos em restaurantes, com o objetivo de melhorar a eficiência operacional e reduzir erros no atendimento. Implementado em linguagem C, o sistema utiliza estruturas dinâmicas e arquivos para simular o armazenamento persistente dos dados de pedidos e cardápio. O sistema também visa proporcionar uma ferramenta prática para gerentes e atendentes, agilizando o fluxo de trabalho e otimizando a experiência dos clientes.
