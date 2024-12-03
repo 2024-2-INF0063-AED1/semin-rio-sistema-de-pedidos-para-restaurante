@@ -160,7 +160,7 @@ Melhorias na Interface: Explorar a criação de uma interface gráfica ou aprimo
 ---
 ---
 
-## Apêndices**
+## **Apêndices**
 
 ### Apêndice A - Diagrama das funções do programa
 
