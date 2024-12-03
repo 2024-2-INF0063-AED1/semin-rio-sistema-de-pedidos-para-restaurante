@@ -46,7 +46,7 @@ A eficiência do sistema será avaliada com as seguintes métricas:
 ---
 
 ## **Seção II. Fundamentos teóricos**
-.O sistema de pedidos para restaurantes está sendo desenvolvido com base em técnicas fundamentais de estruturas de dados e manipulação de arquivos, buscando criar uma solução eficiente e prática para os desafios de gestão de pedidos. A seguir, são descritos os principais mecanismos e algoritmos utilizados, bem como as métricas que serão aplicadas para avaliar seu desempenho.
+O sistema de pedidos para restaurantes está sendo desenvolvido com base em técnicas fundamentais de estruturas de dados e manipulação de arquivos, buscando criar uma solução eficiente e prática para os desafios de gestão de pedidos. A seguir, são descritos os principais mecanismos e algoritmos utilizados, bem como as métricas que serão aplicadas para avaliar seu desempenho.
 
 Estruturas de Dados Dinâmicas
 O sistema utiliza listas encadeadas como estrutura central para organizar dados do cardápio e pedidos. A escolha foi feita devido à flexibilidade dessas listas, que permitem inserções e remoções dinâmicas sem a necessidade de redimensionamento, como ocorre em arrays.
