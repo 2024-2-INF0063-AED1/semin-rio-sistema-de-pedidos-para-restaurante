@@ -114,6 +114,7 @@ O sistema combina algoritmos eficientes, estruturas dinâmicas e persistência d
 O desenvolvimento do sistema de pedidos para restaurantes tem apresentado resultados iniciais positivos, com funcionalidades essenciais já implementadas e testadas em um ambiente controlado. Até agora, o sistema mostrou ser capaz de gerenciar itens do cardápio e pedidos de forma dinâmica, utilizando listas encadeadas e persistência de dados em arquivos. Essas funcionalidades se mostraram fundamentais para alcançar o objetivo principal do projeto: organizar e otimizar o gerenciamento de pedidos de maneira eficiente e confiável.
 
 Funcionalidades Avaliadas
+
 Cadastro de Itens no Cardápio: Os testes realizados indicaram que o sistema tem desempenho estável em diferentes volumes de dados, o que reforça a adequação das listas encadeadas como estrutura base. A inserção de novos itens ocorre de forma fluida e consistente.
 
 Cadastro e Atualização de Pedidos: Os algoritmos de inserção e atualização de pedidos apresentaram respostas rápidas, mesmo em listas maiores, destacando a eficiência das operações. A funcionalidade de atualização de status também se mostrou prática e confiável.
