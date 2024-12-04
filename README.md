@@ -107,6 +107,8 @@ O sistema combina algoritmos eficientes, estruturas dinâmicas e persistência d
 4. **Testes e Simulação**  
    - Testes unitários para validar as funções principais do sistema.  
    - Simulação de carga para avaliar o desempenho em diferentes volumes de pedidos.
+   
+   Teste e simulação ilustrado no apêndice B.
 
 ---
 
