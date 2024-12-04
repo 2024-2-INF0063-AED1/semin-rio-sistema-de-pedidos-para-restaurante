@@ -115,28 +115,33 @@ O desenvolvimento do sistema de pedidos para restaurantes tem apresentado result
 
 Funcionalidades Avaliadas
 
-Cadastro de Itens no Cardápio: Os testes realizados indicaram que o sistema tem desempenho estável em diferentes volumes de dados, o que reforça a adequação das listas encadeadas como estrutura base. A inserção de novos itens ocorre de forma fluida e consistente.
+Cadastro de Itens no Cardápio: Os testes realizados indicaram que o sistema tem desempenho estável, o que reforça a adequação das listas encadeadas como estrutura base. A inserção de novos itens ocorre de forma fluida e consistente.
 
-Cadastro e Atualização de Pedidos: Os algoritmos de inserção e atualização de pedidos apresentaram respostas rápidas, mesmo em listas maiores, destacando a eficiência das operações. A funcionalidade de atualização de status também se mostrou prática e confiável.
+Cadastro e Atualização de Pedidos: Os algoritmos de inserção e atualização de pedidos apresentaram respostas rápidas, destacando a eficiência das operações. A funcionalidade de atualização de status também se mostrou prática e confiável.
 
 Relatórios Estatísticos: A geração de relatórios, como identificação de itens mais vendidos, listagem de pedidos pendentes e o resumo geral de atividades, proporcionou uma visão útil do desempenho do sistema e dos padrões operacionais simulados.
 
 Resultados Preliminares (Simulação)
-Os testes iniciais em ambiente simulado geraram resultados encorajadores:
+Os testes iniciais em ambiente simulado geraram bons resultados:
 
 Tempo Médio de Processamento:
 
-Adicionar itens ao cardápio: aproximadamente 2 ms por operação.
-Registro de pedidos: cerca de 3 ms por operação.
-Atualização de status: em torno de 1,5 ms por operação.
+Inserção de Itens no Cardápio: Apresenta tempo de resposta médio, aproximadamente 2 ms por operação, pois envolve a alocação de memória e a inserção de novos dados na estrutura de dados.
+Registro de Pedidos: Esta operação apresenta um tempo médio de 3 ms, refletindo a criação de um novo pedido e a adição à lista encadeada de pedidos.
+Atualização de Status: A operação de alteração de status dos pedidos é a mais rápida, com uma média de 1,5 ms, uma vez que envolve apenas a modificação de um campo já existente no registro. 
 Taxa de Erro: Durante os testes, 100% das operações válidas de inserção e atualização foram realizadas com sucesso. Os erros detectados foram restritos a entradas inválidas, como IDs duplicados ou referências a itens inexistentes, o que demonstra que as validações implementadas estão funcionando corretamente.
 
-Escalabilidade: O sistema demonstrou desempenho consistente em listas com até 500 pedidos e 100 itens no cardápio, indicando sua viabilidade para restaurantes de pequeno e médio porte.
+Representação Gráfica:
 
-Representação Gráfica
-Embora gráficos detalhados dependam de dados mais abrangentes, é possível prever a inclusão de representações visuais, como gráficos de barras para tempos médios de operação e taxas de erro, após a conclusão dos testes finais. Essa análise será expandida pelos membros da equipe, com tabelas e gráficos detalhados complementando os resultados apresentados.
+O gráfico de tempo de resposta apresenta a média de tempo necessário para a execução de diferentes operações dentro do sistema de pedidos, como a inserção de itens no cardápio, o registro de pedidos e a atualização de status de pedidos. O eixo horizontal (X) representa o tempo em milissegundos (ms), enquanto o eixo vertical (Y) corresponde às operações realizadas.
 
-Comparação com a Literatura
+![image](https://github.com/user-attachments/assets/b58a62ee-e845-4217-a73e-aaa92d174f59)
+
+
+
+
+Comparação com a Literatura:
+
 Os resultados obtidos até o momento corroboram as observações da literatura utilizada como base para o projeto. De acordo com a ABRASEL (2022), a integração de sistemas automatizados é essencial para reduzir erros e melhorar a eficiência operacional, o que foi confirmado durante as simulações. Da mesma forma, NEXAAS (2022) destaca que sistemas capazes de gerar relatórios detalhados ajudam na tomada de decisões estratégicas. Nosso sistema segue essa direção, utilizando relatórios estatísticos como um diferencial para aprimorar a gestão.
 
 Essas comparações mostram que, mesmo em estágio inicial, o sistema está alinhado às melhores práticas do setor e atende aos objetivos definidos na literatura.
@@ -162,8 +167,12 @@ Melhorias na Interface: Explorar a criação de uma interface gráfica ou aprimo
 
 ---
 ## **Referências**
-1.
-2.
+   1. ABRASEL, 2022. Sistema de Restaurante Integrado.
+
+   2. NEXAAS, 2022. Gestão de Pedidos.
+
+   3. TOTVS, 2022. Controle de Pedidos.
+
 ---
 
 ## **Apêndices**
@@ -171,3 +180,11 @@ Melhorias na Interface: Explorar a criação de uma interface gráfica ou aprimo
 ### Apêndice A - Diagrama demonstrando as funções do programa
 
 ![Classe UML (2)](https://github.com/user-attachments/assets/2d2facd3-14e1-4b22-b0e8-4ed790cab70d)
+
+### Apêndice B - Vídeo funcionamento do programa
+https://github.com/user-attachments/assets/408563f2-60e0-4c0e-a80f-655c779b5870
+
+
+
+
+
