@@ -3,7 +3,7 @@
 8;Cupim maturado na brasa;245.90;0
 7;Picanha (3 Pessoas);245.90;0
 6;Caldo misto;25.90;0
-5;Caldo de frango;25.90;0
+5;Caldo de frango;25.90;2
 4;Caldo de feij∆o;25.90;0
 3;Porá∆o de feij∆o tropeiro;25.00;0
 2;Porá∆o de arroz;20.00;1
